@@ -24,9 +24,14 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let person = "Alice";
+let amountOfItems = 5;
+let totalAmount = 20;
+let carMake = "Ford";
+let carModel = "Escape";
+let carColor = "red";
 
-console.log(d);
+let shoppingResult = person + " bought " + amountOfItems + " items for $" + totalAmount + ".";
+let carResult = person + " puts items in their " + carColor + " " + carMake + " " + carModel + ".";
+
+console.log(shoppingResult + "  " + carResult);
